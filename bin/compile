@@ -77,6 +77,10 @@ case "$STACK" in
       libxt6
       libxtst6
       fonts-liberation
+      xvfb
+      xserver-xephyr
+      tigervnc-standalone-server
+      xfonts-base
     "
     ;;
   *)
