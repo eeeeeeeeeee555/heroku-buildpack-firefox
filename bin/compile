@@ -61,6 +61,12 @@ case "$STACK" in
       libcairo-gobject2
       libgconf-2-4
       libgtk-3-0
+      xorg
+      xserver-xorg
+      xvfb
+      libx11-dev
+      libxext-dev
+      libxext-dev:i386
       libice6
       libnspr4
       libnss3
@@ -77,7 +83,6 @@ case "$STACK" in
       libxt6
       libxtst6
       fonts-liberation
-      xvfb
       xserver-xephyr
       tigervnc-standalone-server
       xfonts-base
